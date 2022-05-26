@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: rgb(201, 66, 32);
+    background: radial-gradient(rgba(179, 255, 255, 0.5), rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.1));
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    ;
+}
+
+#nameDiv {
+    margin-top: 40px;
+}
+
+.input {
+    font-size: 30px;
+    color: #000000;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif; 
+    margin: 15px;   
+}
+
+#Submit {
+    width: 150px;
+    height: 30px;
+    font-size: 23px;
+    background-color: #e41212;
+    color: rgb(250, 246, 246);
+    box-shadow: 0 3px 4px 0 rgb(252, 249, 251);
+    margin-top: 20px;
+    border-radius: 18px;
+    border: 0px;
+}
+
+table {
+    border-collapse: separate;
+    width: 50;
+    margin: 65px auto;
+    background-color: rgb(244, 250, 244);
+}
+
+table,
+th,
+td {
+    border: 1.2px solid rgb(0, 0, 0);
+    padding: 2px;
+}
+
+th {
+    font-size: 25px;
+    font-weight: 600;
+    color: #050101;
+}
+
+td {
+    font-size: 15px;
+    color: rgb(3, 1, 1);
+    font-weight: 500;
+}
